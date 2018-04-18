@@ -8,11 +8,7 @@ import javax.lang.model.element.Name;
 import javax.lang.model.element.VariableElement;
 import me.brucezz.viewfinder.annotation.OnClick;
 
-/**
- * Created by brucezz on 2016-08-03.
- * Github: https://github.com/brucezz
- * Email: im.brucezz@gmail.com
- */
+
 public class OnClickMethod {
 
     private ExecutableElement methodElement;

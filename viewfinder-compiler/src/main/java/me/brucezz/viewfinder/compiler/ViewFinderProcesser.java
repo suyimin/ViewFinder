@@ -1,12 +1,13 @@
 package me.brucezz.viewfinder.compiler;
 
 import com.google.auto.service.AutoService;
+
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.Filer;
 import javax.annotation.processing.Messager;
@@ -18,6 +19,7 @@ import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.util.Elements;
 import javax.tools.Diagnostic;
+
 import me.brucezz.viewfinder.annotation.BindView;
 import me.brucezz.viewfinder.annotation.OnClick;
 import me.brucezz.viewfinder.compiler.model.AnnotatedClass;

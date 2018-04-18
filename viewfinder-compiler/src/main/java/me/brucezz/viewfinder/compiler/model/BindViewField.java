@@ -7,11 +7,7 @@ import javax.lang.model.element.VariableElement;
 import javax.lang.model.type.TypeMirror;
 import me.brucezz.viewfinder.annotation.BindView;
 
-/**
- * Created by brucezz on 2016-07-25.
- * Github: https://github.com/brucezz
- * Email: im.brucezz@gmail.com
- */
+
 public class BindViewField {
     private VariableElement mFieldElement;
     private int mResId;

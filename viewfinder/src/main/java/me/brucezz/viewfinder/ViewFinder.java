@@ -2,17 +2,14 @@ package me.brucezz.viewfinder;
 
 import android.app.Activity;
 import android.view.View;
+
 import java.util.HashMap;
 import java.util.Map;
+
 import me.brucezz.viewfinder.provider.ActivityProvider;
 import me.brucezz.viewfinder.provider.Provider;
 import me.brucezz.viewfinder.provider.ViewProvider;
 
-/**
- * Created by brucezz on 2016-07-27.
- * Github: https://github.com/brucezz
- * Email: im.brucezz@gmail.com
- */
 public class ViewFinder {
 
     private static final ActivityProvider PROVIDER_ACTIVITY = new ActivityProvider();
